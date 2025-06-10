@@ -4,6 +4,13 @@
 
 Este projeto é um backend para uma aplicação de gerenciamento de tarefas. Ele utiliza o framework Fastify, o ORM Prisma e o TypeScript para fornecer uma API RESTful para criar, ler, atualizar e excluir tarefas.
 
+O projeto contém 
+- Um sistema de autenticação com JWT. (Token Based Authentication).
+- Swagger automático na rota '/docs'.
+- Registro de rotas automático dentro do diretório Routes.
+- Middleware para captura e tratamento de erros.
+- Regra de negócio dentro de '/schemas'.
+
 # Tecnologias Principais
 
 - Fastify – Framework web rápido e low overhead.
